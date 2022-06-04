@@ -1,0 +1,126 @@
+body {
+    font-size: 16px;
+    background-color: #EAEDED;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding-left:2em;
+    padding-right:2em;
+    margin-top: 4.5em;
+    margin-bottom: 3em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fefefe;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    min-width:20em;
+}
+
+.card-body {
+    background-color: #fefefe;
+    width: auto;
+}
+
+.encabezado {
+    display: flex;
+    justify-content:space-between;
+    padding: 0.3em;
+    height: 2.8em;
+    box-sizing: border-box;
+    background-color: white;
+    align-items: center;
+    line-height: 1em;
+    width: 100%;
+    
+}
+
+
+.nombre-de-perfil{
+    display: flex;
+    margin-top: 1.1em;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+}
+
+.encabezado__perfil {
+    display: flex;
+    align-items: center;
+}
+
+
+.imagen{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    height: 100%;
+
+}
+
+.contenedor-flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: auto;
+    justify-content: center;
+
+}
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    margin-top: 3em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    width: 20em;
+}
+
+.card-body{
+    display: block;
+    padding: 0 1.8em;
+    width: 100%;
+}
+.card-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media(max-width:500px){
+    .main{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+@media(min-width:600px){
+    .main{
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media(min-width:1025px){
+    .main{
+        padding-left: 7em;
+        padding-right: 7em;
+    }
+}
